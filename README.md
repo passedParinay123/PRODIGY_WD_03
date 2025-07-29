@@ -1,0 +1,1 @@
+This is a repository containing a code for Tic-Tac-Toe Game which is a dual player game which gives an interactive experience to the users. The users have also the liberty to choose whether to play with other user or with AI companion.
