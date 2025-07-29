@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.mode {
+    margin-bottom: 20px;
+}
+
+.mode button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.mode button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#message {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #f9f9f9;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#reset:hover {
+    background-color: #45a049;
+}
